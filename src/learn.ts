@@ -16,7 +16,7 @@ if (typeof Name !== "string") {
 } else {
     console.log('Name is a string')
 }
-*/
+
 // instanceof
 
 class  Car  {
@@ -40,3 +40,14 @@ if(najmul instanceof Car){
     console.log('This is not a Car')
 }
 
+// Type Casting
+
+let str : any = ' I ama string' ;
+// Type Casting mehtod 1
+let strLength = (str as string).length ;
+
+// Type Casting mehtod 2
+let strLength2:number = (<string>str).length
+console.log(typeof str)
+*/
+// Array
